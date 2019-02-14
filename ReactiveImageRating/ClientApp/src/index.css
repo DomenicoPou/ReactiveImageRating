@@ -1,0 +1,93 @@
+/* Body */
+body {
+    background: rgba(255,102,102,1);
+    background: -webkit-gradient(right top, left top, color-stop(0%, rgba(255,102,102,1)), color-stop(100%, rgba(255,107,28,1)));
+    background: linear-gradient(to left, rgba(255,102,102,1) 0%, rgba(255,107,28,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6666', endColorstr='#ff6b1c', GradientType=1 );
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.rated-image {
+    width: auto;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 65vh;
+    box-shadow: 0 2px 4px rgb(0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.86);
+    margin: 0 auto;
+}
+
+.rated-image-container {
+    color: #f3f3f3;
+    margin: 0 auto;
+    padding: 25px 50px;
+    text-align: center;
+    width: 50%;
+    background: #2b2b2b;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+
+
+/* Buttons */
+.button-container {
+    position: relative;
+}
+
+.btn {
+    font-size: 21px;
+    padding: 5px 40px;
+    margin: 10px;
+    width: 150px;
+}
+
+.btn-yes {
+    background-color: #4b9640;
+}
+
+.btn-no {
+    background-color: #a73e3a;
+}
+
+.btn-next {
+    padding: 10px 40px;
+    width: 200px;
+    background-color: #3a4fa7;
+}
+
+/* Navigation */
+
+.nav {
+    display: inline-block;
+}
+
+/* Media */
+
+@media (max-width: 1024px) {
+    .rated-image-container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 0px;
+    }
+
+    .rated-image-container {
+        width: 90%;
+    }
+    .fact-font {
+        font-size: 20px;
+    }
+
+    .rated-image {
+        max-height: 30vh;
+    }
+}
