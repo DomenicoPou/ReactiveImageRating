@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Loader from './Loader';
 
 /**
  * This is used to show the users what images they have voted for.
@@ -71,7 +72,7 @@ export class History extends Component {
 
     render() {
         let contents = this.state.loading
-            ? <p><em>Loading...</em></p>
+            ? <div class="loader"><Loader /></div>
             : this.renderStats();
 
         return (

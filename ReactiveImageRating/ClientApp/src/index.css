@@ -66,8 +66,14 @@ body {
     display: inline-block;
 }
 
-/* Media */
+/* Loader */
 
+.loader {
+    position: relative;
+    top: 30vh;
+}
+
+/* Media */
 @media (max-width: 1024px) {
     .rated-image-container {
         width: 80%;

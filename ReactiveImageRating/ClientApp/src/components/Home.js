@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Loader from './Loader';
+//import loader from '../images/loader.svg';
 
 /**
  * The core of how users vote on images
@@ -89,12 +91,11 @@ export class Home extends Component {
 
     render() {
         let contents = this.state.loading
-            ? <p><em>Loading...</em></p>
+            ? <div class="loader"><Loader/></div>
             : this.renderImageCarousel();
 
         return (
             <div>
-                
                 {contents}
             </div>
         );
