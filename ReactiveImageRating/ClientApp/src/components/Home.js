@@ -81,7 +81,7 @@ export class Home extends Component {
             );
         } else {
             return (
-                <div>
+                <div class="rated-image-container">
                     <h1>You have voted for all images within our database!</h1>
                 </div>
             );

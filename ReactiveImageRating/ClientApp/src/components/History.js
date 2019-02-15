@@ -62,7 +62,7 @@ export class History extends Component {
             );
         } else {
             return (
-                <div>
+                <div class="rated-image-container">
                     <h1>You haven't voted on our system yet.</h1>
                 </div>
             );
