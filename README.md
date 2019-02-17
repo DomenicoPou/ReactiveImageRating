@@ -5,4 +5,11 @@ This application uses:
 - REACT
 - Bootstrap
 
+
+# Testing Instructions
+1. Unzip Release.zip
+2. Execute ReactiveImageRating.exe
+3. In your recommended browser enter in the localhost url
+
+
 **Known Error:** When running the project in Visual Studios IIS Express. react-scripts are not found by the json package scripts. To fix this issue, simply go to the directory where the project json file is, using any mean on npm installing. Then run: **npm install react-scripts --save**
